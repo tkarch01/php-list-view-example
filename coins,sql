@@ -1,0 +1,10 @@
+
+drop table if exists Coins;
+create table Coins
+( CoinID int unsigned not null auto_increment primary key,
+Coin varchar(50),
+DateStarted varchar(20),
+DateEnded varchar(20),
+PictureName varchar(80)
+);
+insert into Coins values (NULL,"Half Cent","1777","1888","halfcent.jpg");
